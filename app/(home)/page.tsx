@@ -1,6 +1,5 @@
-import Link from "next/link";
-import Movie from "../components/movie";
-import styles from "../styles/home.module.css";
+import Movie from "../../components/movie";
+import styles from "../../styles/home.module.css";
 
 export const metadata = {
   title: "Home",
@@ -29,3 +28,5 @@ export default async function HomePage() {
     </div>
   );
 }
+
+export const runtime = "edge";
